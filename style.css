@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(40, 35, 65);
+}
+
+.containers {
+  max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: rgb(227, 231, 235);
+  border: 1px solid rgb(64, 56, 102);
+  background: 400px;
+}
+
+.todos li {
+  background: rgb(49, 43, 80);
+  color: rgb(227, 231, 235);
+  border: 1px solid rgb(40, 35, 65);
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
